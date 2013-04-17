@@ -24,7 +24,9 @@
                     lamina.stats
                     lamina.api
                     lamina.time]
-          :output-dir "autodoc"}
+          :output-dir "autodoc"
+          :src-dir-uri "https://github.com/ztellman/lamina/blob/perf"
+          :src-linenum-anchor-prefix "L"}
   :jvm-opts ["-server" "-XX:+UseConcMarkSweepGC" "-Xmx2g" "-XX:NewSize=1g" "-XX:MaxPermSize=256m"]
   :repositories {"sonatype-oss-public"
                  "https://oss.sonatype.org/content/groups/public/"}
